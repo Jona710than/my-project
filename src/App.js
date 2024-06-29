@@ -1,6 +1,7 @@
 // import logo from './logo192.png';
 // import { faPenNib } from '@fortawesome/react-fontawesome'
 import './App.css';
+// import Project from '../project';
 
 function App() {
   return (
@@ -34,16 +35,17 @@ function App() {
         </div>
     </div>
 
-<section className='m-11 text-white'>
-    <div className='bg-slate-600 w-60 p-5 shadow-xl rounded-[2rem]'>
-      <h1>Login</h1>
-     <div> First Name : <br/> <input type='text'/></div>
+<form className='m-11 text-white' id='login-form'>
+    <div className='bg-slate-600 w-60 p-5 shadow-xl rounded-[2rem]' id=''>
+      <h1 className='text-[2rem] pb-4'><u>L</u>ogin</h1>
+     <div> First Name : <br/> <input type='text' required  name="username" id="username-field" /></div>
      <br/>
-      <div>Password :<br/> <input type='password'  /></div>
-      <button className='bg-white mt-3 p-3 text-blackr'>submit</button>
+      <div>Password :<br/> <input type='password' required name="password" id="password-field" /></div>
+      <button className='bg-white mt-3 p-3 text-black'id='login-form-submit'>submit</button>
     </div>
     
-</section>
+</form>
+
 
 
     </>
