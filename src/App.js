@@ -1,6 +1,7 @@
 // import logo from './logo192.png';
 // import { faPenNib } from '@fortawesome/react-fontawesome'
 import './App.css';
+  import './input.css'
 // import Project from '../project';
 
 function App() {
